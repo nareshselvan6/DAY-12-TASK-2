@@ -84,5 +84,24 @@ i{
     padding: 10px;
 
 }
+/* For screens up to 300px */
+@media (max-width: 300px) {
+  /* Your CSS styles here */
+}
+
+/* For screens between 301px and 600px */
+@media (min-width: 301px) and (max-width: 600px) {
+  /* Your CSS styles here */
+}
+
+/* For screens between 601px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Your CSS styles here */
+}
+
+/* For screens above 900px */
+@media (min-width: 901px) {
+  /* Your CSS styles here */
+}
 
 
